@@ -21,7 +21,7 @@ export default function Products() {
     return (
         <>
             <div className="flex justify-between">
-                <h2 className="">Productos</h2>
+                <h2 className="font-extrabold text-gray-800 text-3xl">Productos</h2>
                 <Link
                     to="producto/nuevo"
                     className="rounded-md bg-indigo-600 p-3 text-sm font-bold text-white shadow-sm hover:bg-indigo-500"
